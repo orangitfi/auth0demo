@@ -1,0 +1,23 @@
+{
+  "name": "auth0demo",
+  "version": "1.0.0",
+  "description": "Demo of auth0 and express.js",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth0",
+    "express"
+  ],
+  "author": "Tomi Savolainen, OrangIT",
+  "license": "ISC"
+}
