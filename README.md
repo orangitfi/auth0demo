@@ -7,4 +7,4 @@ curl --request POST \
 2. use access token
 curl --request GET \
   --url http://localhost:3000/home \
-  --header 'authorization: Bearer <token>'
+  --header 'authorization: Bearer < token >'
